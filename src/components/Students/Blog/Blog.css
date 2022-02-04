@@ -1,0 +1,7 @@
+.shadow-clsshadow-cls{
+    background-color: rgb(255, 255, 255);
+}
+.shadow-cls:hover{
+    transform: scale(1.03);
+    box-shadow: 0 30px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
