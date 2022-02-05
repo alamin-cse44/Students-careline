@@ -4,7 +4,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 
 const About = () => {
     return (
-        <Container style={{marginTop:'110px'}}>
+        <Container id='about' style={{marginTop:'110px'}}>
             {/* Stack the columns on mobile by making one full-width and the other half-width */}
             <div style={{textAlign:'center', justifyContent:'center'}}>
             <Row>

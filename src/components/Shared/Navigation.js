@@ -18,7 +18,7 @@ const Navigation = () => {
                 <Link to='/' style={{textDecoration :'none'}}>
                 <Nav.Link className='text-light fw-bold' href="/home">HOME</Nav.Link>
                 </Link>
-                <Nav.Link className='text-light fw-bold' href="#link">ABOUT</Nav.Link>
+                <Nav.Link className='text-light fw-bold' href="#about">ABOUT</Nav.Link>
                 <div className='text-light'>
                 <NavDropdown className='fw-bold ' title={<span className='text-light'>COURSES</span>} id="basic-nav-dropdown">
               <NavDropdown.Item className='fw-bold' href="#action/3.1">COURSE ONE</NavDropdown.Item>
@@ -27,14 +27,14 @@ const Navigation = () => {
                 </NavDropdown>
             </div>
            
-                <Nav.Link className='text-light fw-bold' href="/events">EVENTS</Nav.Link>
+                <Nav.Link className='text-light fw-bold' href="#events">EVENTS</Nav.Link>
                 <Link to='/teams' style={{textDecoration :'none'}}>
                   <Nav.Link className='text-light fw-bold' href="/teams">TEAM</Nav.Link>
                 </Link>
                 
             <NavDropdown className='text-light fw-bold' title={<span className='text-light'>PAGES</span>} id="basic-nav-dropdown">
-              <NavDropdown.Item className='fw-bold' href="#action/3.1">BLOG DETAILS</NavDropdown.Item>
-              <NavDropdown.Item className='fw-bold' href="#action/3.2">COURSE DETAILS</NavDropdown.Item>
+              <NavDropdown.Item className='fw-bold' href="#blog">BLOG DETAILS</NavDropdown.Item>
+              <NavDropdown.Item className='fw-bold' href="#course">COURSE DETAILS</NavDropdown.Item>
               <NavDropdown.Item className='fw-bold' href="#action/3.3">EVENT DETAILS</NavDropdown.Item>
             </NavDropdown>
           </Nav>

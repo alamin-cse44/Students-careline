@@ -43,7 +43,7 @@ const blogs = [
 
 const LatestNews = () => {
     return (
-        <div style={{backgroundColor: '#f7f7f7'}}>
+        <div id='blog' style={{backgroundColor: '#f7f7f7'}}>
         <Container style={{marginTop:'120px'}}>
             {/* Stack the columns on mobile by making one full-width and the other half-width */}
             <div style={{textAlign:'center', justifyContent:'center'}}>

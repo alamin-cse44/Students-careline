@@ -107,7 +107,7 @@ export default class OurCourses extends Component {
         ]
       };
     return (
-      <div style={{backgroundColor: ''}}>
+      <div id="course" style={{backgroundColor: ''}}>
         <Container style={{marginTop:'120px'}}>
       <div>
       <div style={{textAlign:'center', justifyContent:'center'}}>

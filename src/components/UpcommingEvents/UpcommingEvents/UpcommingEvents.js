@@ -44,7 +44,7 @@ const events = [
 
 const UpcommingEvents = () => {
     return (
-        <div id="#events">
+        <div id="events">
             <div style={{backgroundColor: '#f7f7f7'}}>
         <Container style={{marginTop:'120px'}}>
             {/* Stack the columns on mobile by making one full-width and the other half-width */}
